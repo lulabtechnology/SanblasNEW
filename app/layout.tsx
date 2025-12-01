@@ -1,25 +1,17 @@
 import "./globals.css";
-import type { Metadata } from "next";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import type { ReactNode } from "react";
 
-export const metadata: Metadata = {
-  title: "San Blas Wave | Tours, Expediciones y Cultura Guna",
+export const metadata = {
+  title: "San Blas Wave | Your Adventure, Your Story",
   description:
-    "Experiencias auténticas en San Blas (Guna Yala): tours, expediciones Panamá ↔ Colombia y hospedajes frente al mar con una agencia local.",
+    "Tours y experiencias en San Blas Panamá, con enfoque cultural Guna y logística completa desde Panamá y Colombia."
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="es" className="scroll-smooth">
-      <body className="bg-[#FFF6E9] text-slate-900 antialiased">
-        <Navbar />
-        <main className="pt-20">{children}</main>
-        <Footer />
+    <html lang="es">
+      <body className="min-h-screen bg-sky-50 antialiased">
+        {children}
       </body>
     </html>
   );
