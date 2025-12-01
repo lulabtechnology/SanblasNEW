@@ -6,7 +6,7 @@ const routes = [
     title: "Panamá → Colombia (4–5 días)",
     subtitle: "Ciudad de Panamá · Puerto Cartí · Islas de San Blas · Capurganá / Sapzurro",
     description:
-      "Ruta perfecta para viajeros que inician en Panamá y quieren cruzar al Caribe colombiano sin pasar por vuelos internos, viviendo varias islas en el camino.",
+      "Ruta ideal para quienes inician en Ciudad de Panamá y quieren cruzar al Caribe colombiano sin cadenas de vuelos internos. Cada día suma islas, historias y nuevos paisajes.",
     bullets: [
       "Salida coordinada desde Ciudad de Panamá en 4×4 autorizado hasta Puerto Cartí.",
       "Recorrido en lancha por islas seleccionadas, con cápsulas culturales Guna.",
@@ -18,7 +18,7 @@ const routes = [
     title: "Colombia → Panamá (4–5 días)",
     subtitle: "Capurganá / Sapzurro · Islas de San Blas · Ciudad de Panamá",
     description:
-      "Pensado para mochileros y viajeros que vienen desde Colombia y quieren vivir San Blas antes de llegar a la capital panameña, con acompañamiento completo.",
+      "Pensado para mochileros y viajeros que vienen desde Capurganá o Sapzurro y quieren vivir San Blas antes de llegar a la capital panameña, con acompañamiento constante.",
     bullets: [
       "Salida desde Capurganá o Sapzurro con operador aliado Darius Capurganá.",
       "Islas cuidadosamente elegidas para evitar saturación y cuidar el entorno.",
@@ -36,7 +36,7 @@ export default function BinationalRoutes() {
     >
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-700/80">
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-700/90">
             rutas binacionales panamá ↔ colombia
           </p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
@@ -80,9 +80,9 @@ export default function BinationalRoutes() {
             Transparencia por encima del precio.
           </p>
           <p className="mt-2">
-            Trabajamos con itinerarios escritos, benchmarking de precios y reparto justo con
-            comunidades Guna y aliados en Capurganá. No buscamos ser los más baratos; buscamos ser los
-            más coherentes con el Caribe y su gente.
+            No buscamos ser la opción más barata, sino la más coherente con el Caribe, las comunidades
+            Guna y los aliados en Capurganá. Por eso trabajamos con itinerarios escritos, benchmarking de
+            precios y reparto justo entre todos los que participan en tu viaje.
           </p>
           <div className="mt-4 flex flex-wrap gap-3">
             <Link
