@@ -21,7 +21,7 @@ export default function Footer() {
           </div>
 
           {/* Contacto */}
-          <div className="text-xs sm:text-sm space-y-1.5">
+          <div className="space-y-1.5 text-xs sm:text-sm">
             <h4 className="text-sm font-semibold text-sky-50">
               Contacto directo
             </h4>
@@ -44,8 +44,8 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Enlaces rápidos */}
-          <div className="text-xs sm:text-sm space-y-1.5">
+          {/* Enlaces rápidos + redes */}
+          <div className="space-y-1.5 text-xs sm:text-sm">
             <h4 className="text-sm font-semibold text-sky-50">
               Enlaces rápidos
             </h4>
@@ -127,7 +127,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 border-t border-sky-800 pt-4 text-[11px] text-sky-400 flex flex-wrap items-center justify-between gap-2">
+        <div className="mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-sky-800 pt-4 text-[11px] text-sky-400">
           <p>© {new Date().getFullYear()} San Blas Wave. Todos los derechos reservados.</p>
           <p>Diseño y desarrollo web por Lulab Tech.</p>
         </div>
