@@ -1,5 +1,6 @@
 import "./globals.css";
 import type { ReactNode } from "react";
+import Navbar from "../components/Navbar";
 
 export const metadata = {
   title: "San Blas Wave | Your Adventure, Your Story",
@@ -11,6 +12,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="es">
       <body className="min-h-screen bg-sky-100 antialiased">
+        <Navbar />
         {children}
       </body>
     </html>
