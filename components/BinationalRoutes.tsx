@@ -20,7 +20,7 @@ const routes = [
     description:
       "Pensado para mochileros y viajeros que vienen desde Capurganá o Sapzurro y quieren vivir San Blas antes de llegar a la capital panameña, con acompañamiento constante.",
     bullets: [
-      "Salida desde Capurganá o Sapzurro con operador aliado Darius Capurganá.",
+      "Salida desde Capurganá o Sapzurro con operadores aliados en la zona.",
       "Islas cuidadosamente elegidas para evitar saturación y cuidar el entorno.",
       "Itinerario cronometrado: horas de salida, paradas, comidas y descansos.",
       "Cierre del viaje en Ciudad de Panamá con recomendaciones de conexión."
@@ -40,7 +40,7 @@ export default function BinationalRoutes() {
             rutas binacionales panamá ↔ colombia
           </p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-            Darius Capurganá × San Blas Wave
+            Capurganá × San Blas Wave
           </h2>
           <p className="mt-4 text-sm sm:text-base text-slate-600">
             Una alianza diseñada para conectar el ecoturismo de Capurganá con la autenticidad de San Blas.

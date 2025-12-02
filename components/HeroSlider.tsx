@@ -27,7 +27,7 @@ const slides = [
     tag: "Rutas Panamá ↔ Colombia",
     title: "Un puente entre dos costas",
     description:
-      "Darius Capurganá × San Blas Wave: itinerarios pensados para mochileros, familias y parejas que quieren algo más que un traslado.",
+      "San Blas Wave: itinerarios pensados para mochileros, familias y parejas que quieren algo más que un traslado.",
   },
 ];
 

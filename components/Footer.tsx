@@ -20,11 +20,12 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Contacto */}
+          {/* Contacto directo */}
           <div className="space-y-1.5 text-xs sm:text-sm">
             <h4 className="text-sm font-semibold text-sky-50">
               Contacto directo
             </h4>
+
             <p className="mt-1 font-medium text-cyan-200">WhatsApp Español</p>
             <p>+507 6565-4768 · Renilio Crespo</p>
 
@@ -33,18 +34,24 @@ export default function Footer() {
 
             <p className="mt-2 font-medium text-cyan-200">Correos</p>
             <p>
-              <a href="mailto:info@sanblaswave.com" className="underline underline-offset-2">
+              <a
+                href="mailto:info@sanblaswave.com"
+                className="underline underline-offset-2"
+              >
                 info@sanblaswave.com
               </a>
             </p>
             <p>
-              <a href="mailto:booking@sanblaswave.com" className="underline underline-offset-2">
+              <a
+                href="mailto:booking@sanblaswave.com"
+                className="underline underline-offset-2"
+              >
                 booking@sanblaswave.com
               </a>
             </p>
           </div>
 
-          {/* Enlaces rápidos + redes */}
+          {/* Enlaces + redes */}
           <div className="space-y-1.5 text-xs sm:text-sm">
             <h4 className="text-sm font-semibold text-sky-50">
               Enlaces rápidos
@@ -60,12 +67,18 @@ export default function Footer() {
               </Link>
             </p>
             <p>
-              <Link href="#rutas-binacionales" className="hover:underline underline-offset-2">
+              <Link
+                href="#rutas-binacionales"
+                className="hover:underline underline-offset-2"
+              >
                 Rutas binacionales
               </Link>
             </p>
             <p>
-              <Link href="#por-que-elegirnos" className="hover:underline underline-offset-2">
+              <Link
+                href="#por-que-elegirnos"
+                className="hover:underline underline-offset-2"
+              >
                 ¿Por qué elegirnos?
               </Link>
             </p>
@@ -127,7 +140,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-sky-800 pt-4 text-[11px] text-sky-400">
+        {/* Línea inferior */}
+        <div className="mt-8 flex flex-wrap items-center justify-between gap-2 border-top border-sky-800 pt-4 text-[11px] text-sky-400 border-t">
           <p>© {new Date().getFullYear()} San Blas Wave. Todos los derechos reservados.</p>
           <p>Diseño y desarrollo web por Lulab Tech.</p>
         </div>
