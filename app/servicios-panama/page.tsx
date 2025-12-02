@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Servicios en Panamá | San Blas Wave",
   description:
-    "Coordinación de traslados, city tours, experiencias combinadas y servicios para agencias en Ciudad de Panamá."
+    "Coordinación de traslados, city tours, experiencias combinadas y servicios para agencias en Ciudad de Panamá.",
 };
 
 export default function PanamaServicesPage() {
@@ -29,27 +29,12 @@ export default function PanamaServicesPage() {
               servicios en panamá
             </p>
             <h1 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
-              Mucho más que San Blas: servicios en Ciudad de Panamá
+              Servicios y experiencias en Ciudad de Panamá
             </h1>
             <p className="mt-4 text-sm sm:text-base text-cyan-50/95">
               Coordinamos traslados, city tours, noches en la ciudad y experiencias combinadas para que tu
               paso por Panamá sea fluido, seguro y memorable, antes o después de tu aventura en San Blas.
             </p>
-            <div className="mt-6 flex flex-wrap gap-3 text-xs sm:text-sm text-cyan-100/90">
-              <span className="inline-flex items-center gap-2 rounded-full bg-sky-950/40 px-3 py-1">
-                <span className="h-2 w-2 rounded-full bg-emerald-300" />
-                Traslados aeropuerto ↔ hotel ↔ puerto
-              </span>
-              <span className="inline-flex items-center gap-2 rounded-full bg-sky-950/40 px-3 py-1">
-                <span className="h-2 w-2 rounded-full bg-amber-300" />
-                City tour · Canal de Panamá · Casco Antiguo
-              </span>
-              <span className="inline-flex items-center gap-2 rounded-full bg-sky-950/40 px-3 py-1">
-                <span className="h-2 w-2 rounded-full bg-cyan-300" />
-                Paquetes combinados Panamá + San Blas
-              </span>
-            </div>
-
             <div className="mt-6 flex flex-wrap gap-3">
               <Link
                 href="https://wa.me/50765654768"
@@ -62,7 +47,7 @@ export default function PanamaServicesPage() {
                 href="/"
                 className="inline-flex items-center justify-center rounded-full bg-sky-950/60 px-5 py-2.5 text-xs font-semibold text-cyan-50 shadow-md shadow-sky-950/50 hover:bg-sky-950/80"
               >
-                Volver a experiencias en San Blas
+                Volver a San Blas Wave
               </Link>
             </div>
           </div>
@@ -154,74 +139,6 @@ export default function PanamaServicesPage() {
                 Presupuestos a medida según hotel, fechas y número de noches.
               </p>
             </article>
-          </div>
-        </div>
-      </section>
-
-      {/* BLOQUE: PARA AGENCIAS Y GRUPOS */}
-      <section className="bg-gradient-to-b from-sky-100 via-emerald-50/60 to-white py-16 sm:py-20">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-700/90">
-              para agencias, operadores y grupos grandes
-            </p>
-            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              Servicios B2B y coordinación especial
-            </h2>
-            <p className="mt-4 text-sm sm:text-base text-slate-600">
-              Trabajamos como aliado operativo para agencias mayoristas, operadores receptivos y
-              organizadores de grupos que necesitan un equipo en Panamá que entienda tanto la ciudad
-              como San Blas.
-            </p>
-          </div>
-
-          <div className="mt-8 grid gap-6 md:grid-cols-2">
-            <article className="rounded-3xl bg-white/90 p-5 text-sm text-slate-700 shadow-sm ring-1 ring-sky-100">
-              <h3 className="text-base font-semibold text-slate-900">
-                Soporte para agencias y mayoristas
-              </h3>
-              <ul className="mt-3 space-y-1.5 text-xs sm:text-sm">
-                <li>• Diseño de rutas y tiempos realistas para itinerarios combinados.</li>
-                <li>• Coordinación con hoteles, conductores y operadores locales.</li>
-                <li>• Comunicación clara sobre capacidades, clima y temporada.</li>
-              </ul>
-              <p className="mt-3 text-xs text-slate-500">
-                Ejemplo: coordinación de grupos de 15–25 pasajeros que llegan en vuelos nocturnos,
-                con noches en la ciudad y salida temprana hacia San Blas.
-              </p>
-            </article>
-
-            <article className="rounded-3xl bg-white/90 p-5 text-sm text-slate-700 shadow-sm ring-1 ring-sky-100">
-              <h3 className="text-base font-semibold text-slate-900">
-                Proyectos especiales y contenido
-              </h3>
-              <ul className="mt-3 space-y-1.5 text-xs sm:text-sm">
-                <li>• Apoyo logístico para producciones de contenido en ciudad + islas.</li>
-                <li>• Rutas adaptadas para fotógrafos, creadores y medios.</li>
-                <li>• Acompañamiento de anfitriones locales durante las grabaciones.</li>
-              </ul>
-              <p className="mt-3 text-xs text-slate-500">
-                Ejemplo: campañas de marca que buscan integrar skyline, Casco Antiguo y mar Caribe
-                en una misma narrativa visual.
-              </p>
-            </article>
-          </div>
-
-          <div className="mt-8 rounded-2xl bg-sky-900/90 px-5 py-4 text-xs sm:text-sm text-cyan-50 shadow-md">
-            <p className="font-semibold text-amber-200">
-              ¿Eres agencia o grupo grande?
-            </p>
-            <p className="mt-1">
-              Escríbenos a{" "}
-              <a
-                href="mailto:booking@sanblaswave.com"
-                className="font-semibold underline underline-offset-4"
-              >
-                booking@sanblaswave.com
-              </a>{" "}
-              con tu país de origen, número estimado de pasajeros y fechas tentativas, y te
-              enviamos una propuesta operativa y comercial coherente.
-            </p>
           </div>
         </div>
       </section>
