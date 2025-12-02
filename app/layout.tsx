@@ -1,18 +1,15 @@
 import "./globals.css";
-import type { ReactNode } from "react";
-import Navbar from "../components/Navbar";
 
 export const metadata = {
-  title: "San Blas Wave | Your Adventure, Your Story",
+  title: "Entre Almas Abiertas | Acompañamiento humano y espiritual",
   description:
-    "Tours y experiencias en San Blas Panamá, con enfoque cultural Guna y logística clara desde Panamá y Colombia.",
+    "Entre Almas Abiertas es un espacio íntimo, seguro y sagrado donde el ser humano y el ser espiritual se abrazan. Acompañamiento humano y espiritual guiado por Aureya."
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className="min-h-screen bg-sky-100 antialiased">
-        <Navbar />
+      <body className="bg-space text-main font-sans">
         {children}
       </body>
     </html>
