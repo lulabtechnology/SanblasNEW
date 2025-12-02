@@ -9,7 +9,6 @@ export default function Navbar() {
         {/* Logo + texto */}
         <Link href="/" className="flex items-center gap-2">
           <div className="relative h-9 w-9 sm:h-10 sm:w-10">
-            {/* 👉 Logo principal de San Blas Wave */}
             <Image
               src="/images/brand/san-blas-wave-logo.png"
               alt="San Blas Wave"
@@ -32,6 +31,12 @@ export default function Navbar() {
             className="hover:text-cyan-700"
           >
             Servicios en Panamá
+          </Link>
+          <Link
+            href="/galeria"
+            className="hover:text-cyan-700"
+          >
+            Galería
           </Link>
           <Link
             href="/#contacto"
