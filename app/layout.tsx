@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 export const metadata = {
   title: "San Blas Wave | Your Adventure, Your Story",
   description:
-    "Tours y experiencias en San Blas Panamá, con enfoque cultural Guna y logística completa desde Panamá y Colombia."
+    "Tours y experiencias en San Blas Panamá, con enfoque cultural Guna y logística clara desde Panamá y Colombia.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
