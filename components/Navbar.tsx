@@ -1,45 +1,37 @@
-// components/Navbar.tsx
-import Image from "next/image";
-import Link from "next/link";
+const links = [
+  { href: "#inicio", label: "Inicio" },
+  { href: "#acompanamiento", label: "Acompañamiento" },
+  { href: "#para-quien", label: "¿Para quién?" },
+  { href: "#formas", label: "Formas de acompañarte" },
+  { href: "#sobre-mi", label: "Sobre mí" },
+  { href: "#contacto", label: "Contacto" }
+];
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-30 border-b border-sky-100 bg-sky-50/80 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-        {/* Logo + texto */}
-        <Link href="/" className="flex items-center gap-2">
-          <div className="relative h-9 w-9 sm:h-10 sm:w-10">
-            {/* 👉 Logo principal de San Blas Wave */}
-            <Image
-              src="/images/brand/san-blas-wave-logo.png"
-              alt="San Blas Wave"
-              fill
-              className="object-contain"
-            />
+    <header className="navbar">
+      <div className="nav-left">
+        <div className="nav-logo-mark">
+          <img src="/logo-aureya.png" alt="Logo Entre Almas Abiertas" />
+          <div>
+            <div className="nav-title-main">Entre Almas Abiertas</div>
+            <div className="nav-subtitle">Acompañamiento humano · Aureya</div>
           </div>
-          <span className="text-xs sm:text-sm font-semibold text-slate-800">
-            San Blas Wave
-          </span>
-        </Link>
+        </div>
+      </div>
 
-        {/* Navegación simple */}
-        <nav className="flex items-center gap-4 text-xs sm:text-sm text-slate-700">
-          <Link href="/" className="hover:text-cyan-700">
-            Inicio
-          </Link>
-          <Link
-            href="/servicios-panama"
-            className="hover:text-cyan-700"
-          >
-            Servicios en Panamá
-          </Link>
-          <Link
-            href="/#contacto"
-            className="hidden sm:inline hover:text-cyan-700"
-          >
-            Contacto
-          </Link>
-        </nav>
+      <nav className="nav-links">
+        {links.map((item) => (
+          <a key={item.href} href={item.href} className="nav-link">
+            {item.label}
+          </a>
+        ))}
+      </nav>
+
+      <div className="nav-cta-wrap">
+        <a href="#contacto">
+          <button className="btn-gradient">Agenda una sesión</button>
+        </a>
       </div>
     </header>
   );
