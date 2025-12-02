@@ -40,7 +40,7 @@ export default function BinationalRoutes() {
             rutas binacionales panamá ↔ colombia
           </p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-            Capurganá × San Blas Wave
+             San Blas Wave
           </h2>
           <p className="mt-4 text-sm sm:text-base text-slate-600">
             Una alianza diseñada para conectar el ecoturismo de Capurganá con la autenticidad de San Blas.

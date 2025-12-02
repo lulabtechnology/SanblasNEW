@@ -3,39 +3,36 @@ import Image from "next/image";
 
 const allies = [
   {
+    name: "CAPTUR Mayorista Travel & Tours",
+    image: "/images/allies/captur-logo.png",
+    role: "Mayorista y operador turístico",
+  },
+  {
     name: "Cabaña Selvática",
-    role: "Alojamiento y experiencias en Capurganá",
     image: "/images/allies/cabana-selvatica-logo.png",
-    note: "Aventura de selva y mar que se conecta con nuestras rutas binacionales."
+    role: "Alojamiento y experiencias en Capurganá",
   },
   {
     name: "Planes Capurganá",
-    role: "Operador de experiencias en Capurganá y alrededores",
     image: "/images/allies/planes-capurgana-logo.png",
-    note: "Aliados en la creación de itinerarios coherentes entre selva, río y Caribe."
+    role: "Operador de planes y experiencias en Capurganá",
   },
-  {
-    name: "CAPTUR Mayorista Travel & Tours",
-    role: "Mayorista y operador turístico",
-    image: "/images/allies/captur-logo.png",
-    note: "Puente con agencias y mayoristas que confían en nuestras operaciones."
-  }
 ];
 
 export default function AlliesSection() {
   return (
-    <section className="bg-gradient-to-b from-sky-50 via-sky-100/80 to-sky-50 py-14 sm:py-16">
+    <section className="bg-sky-50 py-10 sm:py-12">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl">
+        <div className="text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-700/90">
-            nuestros aliados
+            algunos de nuestros aliados
           </p>
-          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-            Una red de aliados para sostener cada experiencia
+          <h2 className="mt-2 text-xl sm:text-2xl font-bold text-slate-900">
+            Una red de aliados para que tu viaje funcione en la práctica
           </h2>
-          <p className="mt-4 text-sm sm:text-base text-slate-600">
-            Trabajamos con aliados en Panamá y Colombia que comparten nuestra visión de turismo
-            responsable y coherente. Ellos hacen posible que cada itinerario funcione en la práctica.
+          <p className="mt-3 text-xs sm:text-sm text-slate-600 max-w-2xl mx-auto">
+            Trabajamos con aliados en Panamá y Colombia que comparten nuestra visión
+            de turismo responsable y coherente. Ellos hacen posible cada itinerario.
           </p>
         </div>
 
@@ -56,27 +53,12 @@ export default function AlliesSection() {
               <h3 className="mt-3 text-sm font-semibold text-slate-900">
                 {ally.name}
               </h3>
-              <p className="mt-1 text-[11px] font-medium uppercase tracking-[0.2em] text-cyan-700">
+              <p className="mt-1 text-[11px] sm:text-xs text-slate-600">
                 {ally.role}
-              </p>
-              <p className="mt-2 text-xs text-slate-600">
-                {ally.note}
               </p>
             </article>
           ))}
         </div>
-
-        <p className="mt-6 text-[11px] sm:text-xs text-slate-500">
-          *Si eres operador, alojamiento o agencia y quieres explorar una alianza con San Blas Wave,
-          escríbenos a{" "}
-          <a
-            href="mailto:booking@sanblaswave.com"
-            className="font-semibold underline underline-offset-4"
-          >
-            booking@sanblaswave.com
-          </a>
-          .
-        </p>
       </div>
     </section>
   );
