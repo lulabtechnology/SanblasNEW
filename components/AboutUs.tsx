@@ -18,7 +18,7 @@ export default function AboutUs() {
           </h2>
           <p className="mt-4 text-sm sm:text-base text-slate-600">
             San Blas Wave surge de la experiencia de familias y aliados que viven el Caribe cada día:
-            comunidades Guna en San Blas, operadores locales y la alianza binacional con Darius Capurganá.
+            comunidades Guna en San Blas, operadores locales y aliados binacionales en Capurganá.
             No es solo una agencia: es un puente entre viajeros conscientes y territorios que quieren ser
             visitados con respeto.
           </p>
@@ -66,8 +66,6 @@ export default function AboutUs() {
         <div className="relative w-full lg:w-2/5">
           <div className="relative mx-auto max-w-sm overflow-hidden rounded-[2.5rem] bg-gradient-to-b from-sky-100 via-emerald-50 to-amber-50 shadow-xl ring-1 ring-sky-100/80">
             <div className="relative aspect-[4/5]">
-              {/* Sube una foto de equipo / comunidad Guna en esta ruta: */}
-              {/* public/images/sections/about-san-blas-wave.jpg */}
               <Image
                 src="/images/sections/about-san-blas-wave.jpg"
                 alt="Equipo y anfitriones Guna recibiendo viajeros en San Blas"
