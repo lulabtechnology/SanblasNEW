@@ -7,6 +7,7 @@ import WhyChooseUs from "../components/WhyChooseUs";
 import Testimonials from "../components/Testimonials";
 import FAQ from "../components/FAQ";
 import ContactSection from "../components/ContactSection";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Testimonials />
       <FAQ />
       <ContactSection />
+      <Footer />
     </>
   );
 }
